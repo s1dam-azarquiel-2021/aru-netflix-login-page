@@ -12,30 +12,38 @@
 				<img id="nf-logo" alt="NETFLIX" src="img/netflix.svg" />
 			</a>
 			<form id="nf-login-form">
-				<h1 id="nf-login-header">Sign in</h1>
-				<input name="email"  type="email"    placeholder="Email or phone number" />
-				<input name="pswd"   type="password" placeholder="Password" />
-				<input name="submit" type="submit"   value="Sign In" />
-				<div class="flex-row">
-					<label class="txt-small">
-						<input name="remember-me" type="checkbox" />
-						Remember me
-					</label>
-					<a class="txt-small" href="">Need help?</a>
+				<h1 id="nf-login-header" class="txt-white">Sign in</h1>
+				<div class="flex-column gap-small">
+					<input name="email"  type="email"    placeholder="Email or phone number" />
+					<input name="pswd"   type="password" placeholder="Password" />
 				</div>
-				<a class="nf-login-with-fb" href="#">
-					<img alt="Facebook" src="img/facebook-icon.png" />
-					<span class="txt-small txt-gray">Login with Facebook</span>
-				</a>
-				<p id="nf-signup">
-					<span class="txt-gray">New to netflix? <a href="#">Sign up now.</a></span>
-				</p>
-				<p class="txt-small">
-					<span class="txt-gray">This page is protectded by Google reCAPTCHA to ensure you're not a bot. <a class="txt-blue" href="#">Learn more.</a></span>
-				</p>
+				<div class="flex-column gap-small">
+					<input name="submit" type="submit"   value="Sign In" />
+					<div class="flex-row txt-light-gray">
+						<label class="txt-small">
+							<input name="remember-me" type="checkbox" />
+							Remember me
+						</label>
+						<a class="txt-small flex-grow txt-right" href="">Need help?</a>
+					</div>
+				</div>
+				<div class="flex-column gap-small">
+					<a class="nf-login-with-fb" href="#">
+						<img id="nf-inline-fb-logo" alt="Facebook" src="img/facebook-icon.png" />
+						<span class="txt-small txt-gray">Login with Facebook</span>
+					</a>
+					<p id="nf-signup">
+						<span class="txt-gray">New to netflix?
+							<a href="#" class="txt-white">Sign up now.</a>
+						</span>
+					</p>
+					<p class="txt-small">
+						<span class="txt-gray">This page is protectded by Google reCAPTCHA to ensure you're not a bot. <a class="txt-blue" href="#">Learn more.</a></span>
+					</p>
+				</div>
 			</form>
 		</main>
-		<footer class="txt-gray">
+		<footer id="nf-login" class="txt-gray txt-small">
 			<p>Questions? Call 900 822 377</p>
 			<nav id="nf-footer-nav">
 				<a href="#">FAQ</a>
