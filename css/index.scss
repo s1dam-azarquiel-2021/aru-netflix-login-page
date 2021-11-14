@@ -134,3 +134,9 @@ form#nf-lang {
 		flex-grow: 1;
 	}
 }
+
+.gap {
+	&-small {
+		gap: 0.5rem;
+	}
+}
