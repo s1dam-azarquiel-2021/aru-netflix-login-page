@@ -92,3 +92,29 @@ form#nf-lang {
 		}
 	}
 }
+
+.txt {
+	&-white {
+		color: #fff;
+	}
+
+	&-gray {
+		color: #737373;
+	}
+
+	&-light-gray {
+		color: #b3b3b3;
+	}
+
+	&-blue {
+		color: #0071eb;
+	}
+
+	&-small {
+		font-size: 0.8rem;
+	}
+
+	&-right {
+		text-align: right;
+	}
+}
