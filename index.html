@@ -3,44 +3,55 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<link href="css/index.css" rel="stylesheet" />
 		<title>Login Netflix</title>
 	</head>
 	<body>
 		<main id="nf-login">
-			<a href=""><img alt="" src="" /></a>
-			<div id="nf-login-form">
-				<h1 id="nf-login-header"></h1>
-				<input name="" type="text" value="" />
-				<input name="" type="text" value="" />
-				<input name="" type="text" value="" />
-				<label class="txt-small" for=""><input name="" type="text" value="" /></label>
-				<a class="txt-small" href=""></a>
-				<a class="nf-login-with-fb" href="">
-					<img alt="" src="" />
-					<span class="txt-small txt-gray"></span>
+			<a href="#">
+				<img id="nf-logo" alt="NETFLIX" src="img/netflix.svg" />
+			</a>
+			<form id="nf-login-form">
+				<h1 id="nf-login-header">Sign in</h1>
+				<input name="email"  type="email"    placeholder="Email or phone number" />
+				<input name="pswd"   type="password" placeholder="Password" />
+				<input name="submit" type="submit"   value="Sign In" />
+				<div class="flex-row">
+					<label class="txt-small">
+						<input name="remember-me" type="checkbox" />
+						Remember me
+					</label>
+					<a class="txt-small" href="">Need help?</a>
+				</div>
+				<a class="nf-login-with-fb" href="#">
+					<img alt="Facebook" src="img/facebook-icon.png" />
+					<span class="txt-small txt-gray">Login with Facebook</span>
 				</a>
 				<p id="nf-signup">
-					<span class="txt-gray"></span>
-					<a href=""></a>
+					<span class="txt-gray">New to netflix? <a href="#">Sign up now.</a></span>
 				</p>
 				<p class="txt-small">
-					<span class="txt-gray"></span>
-					<a class="txt-blue" href=""></a>
+					<span class="txt-gray">This page is protectded by Google reCAPTCHA to ensure you're not a bot. <a class="txt-blue" href="#">Learn more.</a></span>
 				</p>
-			</div>
+			</form>
 		</main>
-		<footer>
-			<p class="txt-gray"></p>
-			<nav id="nf-footer-nav" class="txt-gray">
-				<a href=""></a>
-				<a href=""></a>
-				<a href=""></a>
-				<a href=""></a>
-				<a href=""></a>
-				<a href=""></a>
+		<footer class="txt-gray">
+			<p>Questions? Call 900 822 377</p>
+			<nav id="nf-footer-nav">
+				<a href="#">FAQ</a>
+				<a href="#">Help Center</a>
+				<a href="#">Terms of Use</a>
+				<a href="#">Privacy</a>
+				<a href="#">Cookie Preferences</a>
+				<a href="#">Corporation Information</a>
 			</nav>
 			<form id="nf-lang">
-				<input name="" type="text" value="" />
+				<select name="lang">
+					<option value="spn">Spanish</option>
+					<option value="eng">English</option>
+					<option value="ptg">Portuguese</option>
+					<option value="frn">French</option>
+				</select>
 			</form>
 		</footer>
 	</body>
