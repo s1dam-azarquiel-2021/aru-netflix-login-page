@@ -118,3 +118,19 @@ form#nf-lang {
 		text-align: right;
 	}
 }
+
+.flex {
+	&-column {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&-row {
+		display: flex;
+		flex-direction: row;
+	}
+
+	&-grow {
+		flex-grow: 1;
+	}
+}
